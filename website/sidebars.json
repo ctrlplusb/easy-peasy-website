@@ -1,0 +1,56 @@
+{
+  "docs": {
+    "Introduction": ["introduction", "installation"],
+
+    "Core Concepts": [
+      "core-concepts/creating-the-store",
+      "core-concepts/accessing-state-directly-via-store",
+      "core-concepts/modifying-state-via-actions",
+      "core-concepts/dispatching-actions-directly-via-store",
+      "core-concepts/creating-a-thunk-action",
+      "core-concepts/dispatching-thunk-action-directly-via-store",
+      "core-concepts/deriving-state-via-select",
+      "core-concepts/accessing-derived-state-directly-via-store",
+      "core-concepts/updating-multiple-parts-of-state-in-response-to-thunk-action"
+    ],
+    "Usage": [
+      "tutorial/with-react",
+      "tutorial/with-typescript",
+      "tutorial/with-react-native",
+      "writing-tests"
+    ],
+    "Examples": ["examples/example-todo-list", "examples/example-typescript"],
+    "API": [
+      {
+        "type": "subcategory",
+        "label": "JavaScript",
+        "ids": [
+          "api/javascript/action",
+          "api/javascript/createStore",
+          "api/javascript/listen",
+          "api/javascript/reducer",
+          "api/javascript/select",
+          "api/javascript/storeProvider",
+          "api/javascript/thunk",
+          "api/javascript/useActions",
+          "api/javascript/useDispatch",
+          "api/javascript/useStore"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "TypeScript",
+        "ids": [
+          "api/typescript/action",
+          "api/typescript/actions",
+          "api/typescript/createTypedHooks",
+          "api/typescript/listen",
+          "api/typescript/reducer",
+          "api/typescript/select",
+          "api/typescript/thunk"
+        ]
+      }
+    ],
+    "About": ["tips", "prior-art"]
+  }
+}
