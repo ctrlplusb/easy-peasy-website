@@ -13,13 +13,10 @@ const users = [];
 
 const siteConfig = {
   title: 'Easy Peasy', // Title for your website.
-  tagline: 'Global State for React',
-  url: 'https://easy-peasy-website.github.io', // Your website URL
-  baseUrl: '/easy-peasy-website/', // Base URL for your project */
+  tagline: 'Easy peasy global State for React',
+  url: 'https://easy-peasy.now.sh', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   repoUrl: 'https://github.com/ctrlplusb/easy-peasy',
-
-  scrollToTop: true,
-  docsSideNavCollapsible: true,
 
   // Used for publishing and more
   projectName: 'easy-peasy-website',
@@ -38,14 +35,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/easy-peasy-minified.png',
-  footerIcon: 'img/easy-peasy-minified.png',
+  headerIcon: '',
+  footerIcon: 'img/easy-peasy.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#00C853',
+    secondaryColor: '#00e601',
   },
 
   /* Custom fonts for website */
@@ -79,14 +76,13 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/easy-peasy-minified.png',
-  twitterImage: 'img/easy-peasy-minified.png',
+  ogImage: 'img/easy-peasy.png',
+  twitterImage: 'img/easy-peasy.png',
 
-  // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
-
-  // Show documentation's last update time.
-  // enableUpdateTime: true,
+  scrollToTop: true,
+  enableUpdateTime: true,
+  enableUpdateBy: true,
+  docsSideNavCollapsible: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
